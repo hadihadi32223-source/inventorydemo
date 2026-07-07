@@ -23,7 +23,7 @@ export default defineConfig(async ({ mode }) => {
 
   return {
     plugins,
-    base: '/arabic-wms-client-demo/',
+    base: '/inventorydemo/',
     envPrefix: ['VITE_', 'NEXT_PUBLIC_'],
     define: processEnvDefines,
   }
